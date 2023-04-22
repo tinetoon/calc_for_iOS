@@ -11,9 +11,10 @@ class ViewController: UIViewController {
     
     // Элемент лейбла
     @IBOutlet var mainLabel: UILabel!
-    
     // Элемент кнопки
     @IBOutlet var setOneButton: UIButton!
+    // Элемент окна вывода
+    @IBOutlet var inputLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
         
         // Пользовательские тексты для элементов
         mainLabel.text = "Calculator"
+        inputLabel.text = ""
         setOneButton.setTitle("[Enter]", for: .normal) // Обычное состояние
         setOneButton.setTitle("[OK]", for: .highlighted) // Нажатая кнопка
         
