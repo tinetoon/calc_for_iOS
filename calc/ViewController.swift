@@ -24,6 +24,17 @@ class ViewController: UIViewController {
         setOneButton.setTitle("[Enter]", for: .normal) // Обычное состояние
         setOneButton.setTitle("[OK]", for: .highlighted) // Нажатая кнопка
         
+        // Вызов метода, при нажатии кнопки
+        setOneButton.addTarget(self, action: #selector(didTapGetEnterButton), for: .touchUpInside)
+        // terget=self - нажатие от кнопки приходит в текущий ViewController
+        // Selector=#selector - (название метода)
+        // action=touchUpInside - нажатие на кнопку и затем релиз кнопки (нажали/отпустили)
+    }
+    
+    // Метод выполняемый по нажатии кнопки
+    @objc func didTapGetEnterButton() {
+        
+        print("[INFO Log] Tapped Button Enter")
     }
 
 
