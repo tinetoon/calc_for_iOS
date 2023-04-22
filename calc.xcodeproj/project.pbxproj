@@ -40,7 +40,10 @@
 		E239705729F390570009FD18 = {
 			isa = PBXGroup;
 			children = (
-				E239706229F390570009FD18 /* calc */,
+				E239706229F390570009FD18 /* calc-app */,
+				E239707F29F42A880009FD18 /* test-appUITest */,
+				E239707E29F42A690009FD18 /* test-appTest */,
+				E239708129F42AB70009FD18 /* Products */,
 				E239706129F390570009FD18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +56,95 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E239706229F390570009FD18 /* calc */ = {
+		E239706229F390570009FD18 /* calc-app */ = {
+			isa = PBXGroup;
+			children = (
+				E239707D29F42A2E0009FD18 /* Auth */,
+				E239707A29F429E50009FD18 /* API */,
+				E239707729F4276F0009FD18 /* Application */,
+				E239707929F4298B0009FD18 /* Core */,
+				E239707829F4290E0009FD18 /* Resources */,
+			);
+			path = "calc-app";
+			sourceTree = "<group>";
+		};
+		E239707729F4276F0009FD18 /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				E239706329F390570009FD18 /* AppDelegate.swift */,
 				E239706529F390570009FD18 /* SceneDelegate.swift */,
-				E239706729F390570009FD18 /* ViewController.swift */,
-				E239706929F390570009FD18 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E239707829F4290E0009FD18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E239706C29F390580009FD18 /* Assets.xcassets */,
 				E239706E29F390580009FD18 /* LaunchScreen.storyboard */,
 				E239707129F390580009FD18 /* Info.plist */,
 			);
-			path = calc;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E239707929F4298B0009FD18 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E239707A29F429E50009FD18 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E239707B29F429FC0009FD18 /* Models */,
+				E239707C29F42A0D0009FD18 /* Services */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E239707B29F429FC0009FD18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E239707C29F42A0D0009FD18 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E239707D29F42A2E0009FD18 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E239706729F390570009FD18 /* ViewController.swift */,
+				E239706929F390570009FD18 /* Main.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E239707E29F42A690009FD18 /* test-appTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "test-appTest";
+			sourceTree = "<group>";
+		};
+		E239707F29F42A880009FD18 /* test-appUITest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "test-appUITest";
+			sourceTree = "<group>";
+		};
+		E239708129F42AB70009FD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,8 +373,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +383,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.tinetoon.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +405,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +415,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.tinetoon.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
