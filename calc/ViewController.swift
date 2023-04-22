@@ -36,7 +36,8 @@ class ViewController: UIViewController {
     // Метод выполняемый по нажатии кнопки
     @objc func didTapGetEnterButton() {
         
-        print("[INFO Log] Tapped Button Enter")
+        inputLabel.text = "Tapped Button Enter"
+        print("[INFO Log] Tapped Button Enter & displaying information on the screen")
     }
 
 
