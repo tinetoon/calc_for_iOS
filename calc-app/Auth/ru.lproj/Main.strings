@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; configuration.title = "setOneButton"; ObjectID = "PPl-9h-p43"; */
+"PPl-9h-p43.configuration.title" = "setOneButton";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PPl-9h-p43"; */
+"PPl-9h-p43.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "mainLabel"; ObjectID = "V2O-Qg-pQs"; */
+"V2O-Qg-pQs.text" = "mainLabel";
+
+/* Class = "UILabel"; text = "inputLabel"; ObjectID = "rrd-al-vMA"; */
+"rrd-al-vMA.text" = "inputLabel";

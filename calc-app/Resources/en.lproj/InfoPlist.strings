@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  calc
+
+  Created by Anton Dyuzhakov on 23.04.2023.
+  
+*/
+
+CFBundleDisplayName = "Calculator"; // Максимум 13 символов (11 - лучше)

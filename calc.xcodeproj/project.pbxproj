@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E217FABA29F4F1B5006B9604 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E217FABC29F4F1B5006B9604 /* InfoPlist.strings */; };
 		E239706429F390570009FD18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239706329F390570009FD18 /* AppDelegate.swift */; };
 		E239706629F390570009FD18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239706529F390570009FD18 /* SceneDelegate.swift */; };
 		E239706829F390570009FD18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239706729F390570009FD18 /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E217FAB629F4EF8E006B9604 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		E217FAB729F4EF8E006B9604 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E217FABB29F4F1B5006B9604 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E217FABD29F4F1B7006B9604 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E239706029F390570009FD18 /* calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E239706329F390570009FD18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E239706529F390570009FD18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				E239706C29F390580009FD18 /* Assets.xcassets */,
+				E217FABC29F4F1B5006B9604 /* InfoPlist.strings */,
 				E239706E29F390580009FD18 /* LaunchScreen.storyboard */,
 				E239707129F390580009FD18 /* Info.plist */,
 			);
@@ -189,6 +195,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = E239705729F390570009FD18;
 			productRefGroup = E239706129F390570009FD18 /* Products */;
@@ -206,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E239707029F390580009FD18 /* LaunchScreen.storyboard in Resources */,
+				E217FABA29F4F1B5006B9604 /* InfoPlist.strings in Resources */,
 				E239706D29F390580009FD18 /* Assets.xcassets in Resources */,
 				E239706B29F390570009FD18 /* Main.storyboard in Resources */,
 			);
@@ -227,10 +235,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E217FABC29F4F1B5006B9604 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E217FABB29F4F1B5006B9604 /* en */,
+				E217FABD29F4F1B7006B9604 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		E239706929F390570009FD18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E239706A29F390570009FD18 /* Base */,
+				E217FAB629F4EF8E006B9604 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -239,6 +257,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E239706F29F390580009FD18 /* Base */,
+				E217FAB729F4EF8E006B9604 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -250,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -310,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -369,7 +390,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y4X5737U76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = calc/Info.plist;
+				INFOPLIST_FILE = "calc-app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -401,7 +422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y4X5737U76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = calc/Info.plist;
+				INFOPLIST_FILE = "calc-app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
