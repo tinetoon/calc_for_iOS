@@ -170,25 +170,451 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-I0-Tf9">
+                                <rect key="frame" x="73.333333333333329" y="726" width="246.33333333333337" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8V-In-Na8">
+                                        <rect key="frame" x="0.0" y="0.0" width="55.666666666666664" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="kAo-cp-J1P"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="zeroBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmi-Z6-xam">
+                                        <rect key="frame" x="61.333333333333329" y="0.0" width="55.333333333333329" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="kwY-uO-MKy"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="dotBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ygh-kk-1B7">
+                                        <rect key="frame" x="122.33333333333333" y="0.0" width="59.333333333333329" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="bvU-Rg-hDK"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="equalBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PZb-qV-37H">
+                                        <rect key="frame" x="187.33333333333337" y="0.0" width="59" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="yNc-cq-rdT"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="minusBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="HOj-4o-xyI"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Mez-HR-EI0">
+                                <rect key="frame" x="73.333333333333329" y="560" width="246.33333333333337" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crb-tS-IRD">
+                                        <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="Ufz-4p-9Eo"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="fourBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLo-bP-gsD">
+                                        <rect key="frame" x="66.000000000000014" y="0.0" width="55.333333333333329" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="8SI-9F-SCI"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="fiveBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UN7-td-132">
+                                        <rect key="frame" x="127.66666666666667" y="0.0" width="55.333333333333329" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="mG3-1v-51K"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="sixBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1Z-ig-DCL">
+                                        <rect key="frame" x="189.66666666666669" y="0.0" width="56.666666666666657" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="ZIb-ue-dbV"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="multBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="10a-8f-Nt7"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="H00-zg-Fnp">
+                                <rect key="frame" x="72.666666666666671" y="477" width="247.66666666666663" height="75"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lfz-ug-y56">
+                                        <rect key="frame" x="0.0" y="0.0" width="59.666666666666664" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="N7F-GY-FHl"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="sevenBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EYc-WO-KLi">
+                                        <rect key="frame" x="66.999999999999986" y="0.0" width="55.333333333333329" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="A4T-uX-ygh"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="eightBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9i-Bd-Hx0">
+                                        <rect key="frame" x="130" y="0.0" width="55" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="2Uj-2P-Hyw"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="nineBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iH-6f-Gr5">
+                                        <rect key="frame" x="192.33333333333331" y="0.0" width="55.333333333333343" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="6hr-W8-nAe"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment>
+                                                    <string key="content">Кнопка
+</string>
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="1">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name="Tahoma-Bold"/>
+                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="divideBtn">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Tahoma-Bold" family="Tahoma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="vgx-W5-Mt0"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <constraints>
+                            <constraint firstItem="PPl-9h-p43" firstAttribute="top" secondItem="Mez-HR-EI0" secondAttribute="bottom" constant="8" symbolic="YES" id="4OP-t3-gvp"/>
+                            <constraint firstItem="crb-tS-IRD" firstAttribute="top" secondItem="H00-zg-Fnp" secondAttribute="bottom" constant="8" symbolic="YES" id="5dl-Kk-19b"/>
                             <constraint firstItem="E5y-xb-gOl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8lZ-SO-hTW"/>
+                            <constraint firstItem="H00-zg-Fnp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="986-tY-R3G"/>
+                            <constraint firstItem="O9o-I0-Tf9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Hcl-tL-izG"/>
                             <constraint firstItem="V2O-Qg-pQs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="IVl-uN-RJW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E5y-xb-gOl" secondAttribute="bottom" constant="100" id="Lwn-iz-eJi"/>
                             <constraint firstItem="rrd-al-vMA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XPH-CK-QW7"/>
+                            <constraint firstItem="O9o-I0-Tf9" firstAttribute="top" secondItem="PPl-9h-p43" secondAttribute="bottom" constant="8" symbolic="YES" id="eSF-HN-K0q"/>
                             <constraint firstItem="V2O-Qg-pQs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="itH-Ik-rNR"/>
                             <constraint firstItem="rrd-al-vMA" firstAttribute="top" secondItem="V2O-Qg-pQs" secondAttribute="bottom" constant="50" id="qci-l3-6OK"/>
+                            <constraint firstItem="Mez-HR-EI0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tuJ-wH-cWZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rrd-al-vMA" secondAttribute="trailing" constant="30" id="x5f-tW-DJC"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="inputLabel" destination="rrd-al-vMA" id="n0k-tm-e2N"/>
                         <outlet property="mainLabel" destination="V2O-Qg-pQs" id="Arx-5k-Djl"/>
+                        <outlet property="setDivideButton" destination="4iH-6f-Gr5" id="rTP-rJ-VEg"/>
+                        <outlet property="setDotButton" destination="pmi-Z6-xam" id="OhK-3P-K7N"/>
+                        <outlet property="setEightButton" destination="EYc-WO-KLi" id="Tti-t6-xWt"/>
+                        <outlet property="setEqualButton" destination="Ygh-kk-1B7" id="lEQ-bm-NMX"/>
+                        <outlet property="setFiveButton" destination="BLo-bP-gsD" id="9pS-TP-UfS"/>
+                        <outlet property="setFourButton" destination="crb-tS-IRD" id="3kB-hr-tNf"/>
+                        <outlet property="setMinusButton" destination="PZb-qV-37H" id="svM-34-10v"/>
+                        <outlet property="setMultiplyButton" destination="E1Z-ig-DCL" id="aef-kd-1wb"/>
+                        <outlet property="setNineButton" destination="P9i-Bd-Hx0" id="CVU-j1-pFg"/>
                         <outlet property="setOneButton" destination="PPl-9h-p43" id="r2h-Ks-12y"/>
+                        <outlet property="setSevenButton" destination="Lfz-ug-y56" id="zP8-Cs-xCt"/>
+                        <outlet property="setSixButton" destination="UN7-td-132" id="8hc-HF-fdX"/>
                         <outlet property="setSubButton" destination="P85-L5-2K2" id="RBO-DZ-fhf"/>
                         <outlet property="setThreeButton" destination="cbK-bD-KT7" id="nHF-CR-PMc"/>
                         <outlet property="setTwoButton" destination="cHw-Ke-18v" id="7WY-aX-ZOb"/>
+                        <outlet property="setZeroButton" destination="C8V-In-Na8" id="wqm-wn-Q0t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
